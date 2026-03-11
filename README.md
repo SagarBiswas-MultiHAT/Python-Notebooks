@@ -2,307 +2,360 @@
 
 <div align="right">
 
-![Build](https://img.shields.io/github/actions/workflow/status/SagarBiswas-MultiHAT/Python-Notebooks/ci.yml?branch=main)
-&nbsp;
+![Python CI](https://img.shields.io/github/actions/workflow/status/SagarBiswas-MultiHAT/Python-Notebooks/python-ci.yml?branch=main&label=python%20ci)
+![Pages](https://img.shields.io/github/actions/workflow/status/SagarBiswas-MultiHAT/Python-Notebooks/pages.yml?branch=main&label=pages)
 ![Release](https://img.shields.io/github/v/release/SagarBiswas-MultiHAT/Python-Notebooks)
-&nbsp;
 ![Last Commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/Python-Notebooks)
-&nbsp;
-![Issues](https://img.shields.io/github/issues/SagarBiswas-MultiHAT/Python-Notebooks)
-&nbsp;
 ![License](https://img.shields.io/github/license/SagarBiswas-MultiHAT/Python-Notebooks)
-&nbsp;
-![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
 
 </div>
 
-Two published notebooks: 'The Pythonic Odyssey' (core Python, basics→OOP) and 'Python for CyberSecurity' (security tooling & hands-on projects). Example-driven notes, practical projects, and interview prep for beginner-to-intermediate learners.
+This repository is a focused learning hub for two PDF notebooks:
+
+1. **The Pythonic Odyssey**: a structured guide to Python fundamentals through intermediate concepts.
+2. **Python for CyberSecurity**: a practical bridge from Python scripting into cybersecurity-oriented use cases.
+
+Together, they form a clear progression. The first notebook helps a learner become comfortable with Python itself. The second shows how those Python skills can be used in security-focused labs, automation tasks, and tool-oriented workflows.
+
+## Quick Access
+
+- **GitHub Pages site:** https://sagarbiswas-multihat.github.io/Python-Notebooks/
+- **The Pythonic Odyssey PDF:** [Open the notebook](<The Pythonic Odyssey.pdf>)
+- **Python for CyberSecurity PDF:** [Open the notebook](<Python for CyberSecurity.pdf>)
+
+## What This Repository Contains
+
+This project is intentionally simple. It contains:
+
+- Two published PDF notebooks.
+- A GitHub Pages website for browsing the material in a polished format.
+- CI validation to make sure the public-facing files and links stay healthy.
+- Supporting documentation for safe use, contribution, and repository quality.
+
+If someone lands on this repository for the first time, the goal is that they can understand what each notebook covers, who it is for, how to read them in order, and where to start.
+
+## Why These Two Notebooks Belong Together
+
+Many learners hit the same problem: they study Python syntax in one place, then cybersecurity scripting in another, but the connection between the two is never explained cleanly. This repository solves that by keeping both learning tracks together.
+
+- **The Pythonic Odyssey** answers: "How do I become comfortable with Python as a language?"
+- **Python for CyberSecurity** answers: "Once I know Python, how do I apply it in security-related workflows?"
+
+That makes the repository useful for beginners, self-learners, and anyone who wants a single revision hub instead of scattered notes.
+
+## Who This Repository Is For
+
+This project will be most useful if you are one of the following:
+
+- A beginner who wants one Python resource that starts from the basics and grows gradually.
+- A student preparing for exams, interviews, or revision sessions.
+- A self-learner who wants a clearer path from Python fundamentals into cybersecurity scripting.
+- A security learner who already knows basic Python and wants project-oriented examples and tool awareness.
+
+## Recommended Reading Order
+
+If you are not sure where to begin, use this order:
+
+1. Start with **The Pythonic Odyssey**.
+2. Finish the sections on core syntax, collections, conditions, loops, functions, file handling, and object-oriented programming.
+3. Move to **Python for CyberSecurity** once you can comfortably read and write basic Python scripts.
+4. Treat the cybersecurity material as educational material for safe lab use, not as permission to target real systems.
 
 ## The Pythonic Odyssey
 
-**PDF:** [click here](<The Pythonic Odyssey.pdf>)
+**Best for:** beginner to intermediate Python learners  
+**Purpose:** build strong Python fundamentals in a structured, example-driven way  
+**Notebook:** [The Pythonic Odyssey](<The Pythonic Odyssey.pdf>)
 
-**📘 Finally finished my Python notes and I am sharing it with you all for FREE!**
+### What it teaches
 
-Hey everyone! 👋 So I have been studying Python for a while now and I compiled everything I learned into one big notebook; and honestly I think it turned out pretty solid, so here it is!
+The notebook begins at the absolute basics and steadily moves into more capable Python usage. It is written as a full learning journey rather than a disconnected set of tips.
 
-----------
+### Main topics and subtopics
 
-> Here is everything that are covered (it is a lot 😅):
+#### 1. Python Basics and Setup
 
-🔹  We start from the absolute basics; **what Python even is, why it is useful**, and how to use **modules, PIP, and comments** ***(Part 1)***. Then straight into **variables, data types, operators, and typecasting**; like how Python stores integers, floats, strings, booleans, and None values (Part 2).
+- What Python is and why it is useful
+- Modules and package usage
+- Pip basics
+- Comments and simple program structure
 
-🔹 After that comes **Strings**; slicing, indexing, and like 20+ string functions like .upper(), .split(), .replace(), .join() and more ***(Part 3)***. Then **Lists and Tuples**; how to store, sort, insert, remove, and loop through data, and why tuples are immutable ***(Part 4)***.
+#### 2. Variables, Data Types, and Operators
 
-🔹 ***Part 5*** covers **Dictionaries and Sets**; key-value pairs, set operations like union, intersection, difference, and symmetric difference. ***Part 6*** is all about **if, elif, else** and how conditional logic works with relational and logical operators.
+- Variables and assignment
+- Integers, floats, strings, booleans, and `None`
+- Arithmetic, comparison, and logical operators
+- Type casting fundamentals
 
-🔹 Then **Loops**; both while and for loops, the range() function, break, continue, pass, and even for-else ***(Part 7)***. ***Part 8*** covers **Functions and Recursion**; defining functions, arguments, default parameters, return values, and how recursion works (with a factorial example). There is also a **Snake, Water, Gun game project** built using these concepts! 🐍
+#### 3. Strings
 
-🔹 ***Part 9*** is **File I/O**; reading, writing, and appending files using open(), different file modes (r, w, a), readline(), readlines(), and the with statement.
+- Indexing and slicing
+- String immutability
+- Common string methods such as uppercase conversion, splitting, replacing, joining, and trimming
 
-----------
+#### 4. Lists and Tuples
 
-Then we get into the big stuff 👇
+- Creating and reading ordered collections
+- Adding, removing, sorting, and iterating through list data
+- Why tuples are immutable and when that matters
 
-🔹 ***Part 10***; **Object Oriented Programming (OOP)**: classes, objects, class vs instance attributes, the __init__() constructor, self, static methods, and how to model real-world problems in code.
+#### 5. Dictionaries and Sets
 
-🔹 ***Part 11***; **Inheritance**: single, multiple, and multilevel inheritance, the super() method, class methods (@classmethod), property decorators (@property), getters & setters, and **operator overloading** using dunder/magic methods like __add__, __str__, __len__ etc. There is also a **number guessing game project** here! 🎮
+- Key-value storage using dictionaries
+- Set behavior and uniqueness
+- Union, intersection, difference, and symmetric difference
 
-🔹 ***Part 12***; **Advanced Python 1**: the walrus operator (:=), type hints, match-case/switch statements, dictionary merge operators (|), and full **exception handling** with try, except, else, finally, and custom exceptions. Also explains if __name__ == '__main__', the global keyword, enumerate(), and **list comprehensions**.
+#### 6. Conditional Logic
 
-🔹 ***Part 13***; **Advanced Python 2**: lambda functions, the map(), filter(), and reduce() functions, the format() method, and the join() method.
+- `if`, `elif`, and `else`
+- Relational and logical conditions
+- Branching program behavior from user or program state
 
-🔹 And finally ***Part 14***; **Virtual Environments**: what they are, how to create and activate them, and how to use pip freeze with requirements.txt to share your environment with others.
+#### 7. Loops
 
-🔹 There is also a **Tricks section** at the end with cool shortcuts like variable swapping, string reversing with slicing, zip(), Counter, defaultdict, and more 🔥
+- `while` loops
+- `for` loops
+- `range()`
+- `break`, `continue`, `pass`, and `for-else`
 
-This covers like everything from beginner to intermediate Python. Whether you are just starting out or want to revise before an interview or exam; I think this will help. Drop a comment if you have any questions, I'll try my best to answer! 🙌
+#### 8. Functions and Recursion
 
----
+- Defining functions with `def`
+- Parameters and return values
+- Default arguments
+- Recursive thinking and a factorial-style example
+- A Snake, Water, Gun project based on these ideas
+
+#### 9. File Handling
+
+- Reading files
+- Writing and appending
+- File modes such as `r`, `w`, and `a`
+- `readline()`, `readlines()`, and the `with` statement
+
+#### 10. Object-Oriented Programming
+
+- Classes and objects
+- Constructors with `__init__`
+- `self`
+- Class attributes versus instance attributes
+- Static methods
+
+#### 11. Inheritance and Class Patterns
+
+- Single, multiple, and multilevel inheritance
+- `super()`
+- `@classmethod`
+- Properties, getters, and setters
+- Operator overloading with magic methods such as `__add__`, `__str__`, and `__len__`
+- A number guessing project in the same learning arc
+
+#### 12. Advanced Python I
+
+- Walrus operator
+- Type hints
+- Match-case usage
+- Dictionary merge operators
+- Exception handling with `try`, `except`, `else`, and `finally`
+- Custom exceptions
+- `if __name__ == "__main__"`
+- `global`, `enumerate()`, and list comprehensions
+
+#### 13. Advanced Python II
+
+- Lambda functions
+- `map()`, `filter()`, and `reduce()`
+- Formatting values
+- Joining collections into strings
+
+#### 14. Virtual Environments and Useful Tricks
+
+- Why virtual environments matter
+- Creating and activating them
+- Using `pip freeze` and `requirements.txt`
+- Short practical Python tricks for cleaner everyday coding
+
+### What makes this notebook valuable
+
+- It covers the core learning path in one place.
+- It includes projects instead of stopping at theory.
+- It is suitable both for first-time learning and later revision.
 
 ## Python for CyberSecurity
 
-**PDF:** [click here](<Python for CyberSecurity.pdf>)
-
-Hey everyone! 👋 I have been learning Python for cybersecurity for a while now and I finally put together my full notes as a clean document. Sharing it here for anyone who is on the same journey. Hope it helps! 😄
+**Best for:** learners who already know basic Python and want security-oriented applications  
+**Purpose:** show how Python supports automation, networking, scanning, and security tool workflows  
+**Notebook:** [Python for CyberSecurity](<Python for CyberSecurity.pdf>)
 
-> 📌 What is inside? Everything I covered:
+### What it teaches
 
-🔹 **Why Python for Cybersecurity?** Python is easy to learn, versatile, cross-platform, has tons of libraries, and a huge community. It is great for automation, data analysis, AI integration, and saving time on repetitive hacking tasks. Tools like Zaproxy, OWA3F, and Acunetix are even built/modified using Python!
+This notebook explains why Python is widely used in cybersecurity, then ties Python fundamentals to practical scripting and tool-based tasks. It is especially useful for learners who want context around how common libraries and automation habits map to real security work.
 
-**🔹 Key Features of Python**
-- Easy to use & learn 
-- Versatile for many tasks 
-- Extensive library support 
-- Works on any OS (Cross-Platform) 
-- Massive community for support
+### Main topics and subtopics
 
-**🔹 Python Syntax (The Basics)**
-- **Indentation** → Python uses 4 spaces instead of {} braces, so spacing actually matters! 
-- **Comments** → # for single-line, ''' ''' or """ """ for multi-line 
-- **Variables** → No need to declare types. Just write name = "Sagar" and Python figures it out 
-- **Statements** & Line Breaks → One statement per line; use ; for multiple on one line 
-- **Line Continuation** → Use \ or wrap in () to split long lines 
-- **Functions** → Defined with def, followed by name and parentheses[:] (e.g., def greet():) 
-- **Strings** → Single/double quotes for one-liners, triple quotes for multi-line — Whitespace → Tabs and spaces shouldnot be mixed! 
-- **Importing Libraries** → Just write import math and you are good 
-- **Keywords** → Words like if, else, for, while, def, True, False are reserved; can't use them as variable names
+#### 1. Why Python Is Useful in Cybersecurity
 
-**🔹 Python Variables & Data Types**: Variables are just containers for data. No type declaration needed; Python handles it automatically!
-- **int** → Whole numbers → example: age = 22 
-- **float** → Decimal numbers → example: price = 3.99 
-- **str** → Text/characters → example: name = "Sagar" 
-- **bool** → True or False → example: is_active = False 
-- **list** → Ordered, changeable collection → example: [10, 20, 30] 
-- **tuple** → Ordered, unchangeable collection → example: (10, 20, 30) 
-- **dict** → Key-value pairs → example: {"name": "Sagar", "age": 22} 
-- **set** → Unique, unordered items → example: {1, 2, 3, 4}
-Also covered: **Integers, Floats, Complex numbers, Boolean operators** (AND, OR, NOT), and how to work with **Lists** (append, insert, extend, remove, pop, clear), - **Dictionaries** (great for mapping attack types to severity!), and **Sets** (perfect for storing unique IPs!)
+- Easy syntax and fast learning curve
+- Cross-platform use
+- Strong library ecosystem
+- Large community and widespread tooling support
+- Good fit for automation and repeated tasks
 
-🔹 **Conditional Statements**: if, elif, else; lets your program make decisions based on conditions. For example, checking if a user's status is "active", "inactive", or "unknown."
+#### 2. Core Python Refresher for Security Scripts
 
-🔹 **Loops** 
-**For Loop** → iterate through a list (e.g., scanning multiple IP addresses one by one) 
-**While Loop** → keeps running as long as a condition is true (e.g., repeated scanning attempts)
+- Indentation and syntax rules
+- Comments and structure
+- Variables and data types
+- Statements and line continuation
+- Functions and imports
+- Strings, whitespace, and reserved keywords
 
-🔹 **File Handling in Python**: Python's open() function lets you read, write, and append files easily: 
-- **r** → Read only
-- **w** → Write (overwrites existing content)
-- **a** → Append (adds to the end) 
-- **r**+ → Read + Write together
-Super useful for reading log files or saving scan results!
+#### 3. Data Types and Core Constructs
 
-🔹 **User Input in Python**: input() makes your scripts interactive. You can take input from the user and convert it to the right type, like int(input(...)) for port numbers.
+- `int`, `float`, `str`, `bool`
+- Lists, tuples, dictionaries, and sets
+- Conditional statements
+- `for` and `while` loops
+- Input handling
+- File handling for logs and scan results
+- Error handling for safer scripts
 
-🔹 **Error Handling in Python**: Uses try, except, and finally blocks. So if a file doesn't exist or permissions are wrong, your script doesn't just crash; it gives a proper error message and handles it cleanly.
+#### 4. Package Management
 
-🔹 **Functions in Python**: Reusable blocks of code defined with def. Instead of repeating the same code 10 times, write it once as a function and call it wherever needed!
+- Installing libraries with `pip`
+- Listing and removing packages
+- Installing dependencies from `requirements.txt`
+- General package workflow awareness for lab environments
 
-🔹 **PIP (Python's Package Manager)**: Think of it as the "Play Store" for Python libraries 😄 
-- **pip install requests** → install a library 
-- **pip list** → see all installed packages 
-- **pip uninstall requests** → remove a library 
-- **pip install -r requirements.txt** → install all project dependencies at once 
-- **Use --break-system-packages flag if you get errors on Kali Linux**
+#### 5. Important Libraries for Security Learning
 
-🔹 **Top Python Libraries for Hackers**: These are the libraries every cybersecurity student should know:
-- 🖥️ **OS** → Interact with the operating system (create folders, list files, manage processes) 
-- ⚙️ **Subprocess** → Run terminal/shell commands directly from Python 
-- 🌐 **Socket** → Network programming; build basic TCP servers and clients 
-- 📦 **Scapy** → Craft and send custom network packets (great for pen testing) 
-- 🔐 **Cryptography** → Encrypt and decrypt data using Fernet encryption 
-- 🌍 **Requests** → Make HTTP requests; automate web interactions or scrape websites 
-- 🔑 **Paramiko** → SSH into remote servers and run commands from Python 
-- 🔍 **Python-nmap** → Automate Nmap port scanning directly from Python 
-- 📡 **Pyshark** → Python wrapper for Wireshark; capture and analyze live network packets 
-- 🛡️ **Impacket** → Work with network protocols like SMB/RDP; list shared resources remotely
+- `os` for system interaction
+- `subprocess` for command execution
+- `socket` for network programming
+- `scapy` for packet work
+- `cryptography` for encryption tasks
+- `requests` for HTTP automation
+- `paramiko` for SSH automation
+- `python-nmap` for scan automation
+- `pyshark` for packet inspection
+- `impacket` for protocol-focused work
 
-🔹 **Task Automation Using Subprocess** 
-subprocess.run() → run a single terminal command from Python 
-capture_output=True → capture and use the command's output inside your script 
-subprocess.Popen() → for real-time/continuous output (like a live ping)
+#### 6. Safer Automation Practices
 
-🔹 **Security Tips for Using Subprocess** ⚠️ This part is super important and often overlooked: 
-❌ **Never use shell=True with untrusted input** → it opens the door to shell injection attacks (imagine someone typing ; rm -rf / as input 😱) 
-✅ **Always sanitize inputs** → remove special characters like ; and & before using user input in commands 
-✅ **Use subprocess.run() over os.system()** → it's safer, doesn't invoke the shell by default, and gives better error handling and output control
+- Why `subprocess.run()` is preferable to `os.system()` in many cases
+- Why untrusted input should not be passed through `shell=True`
+- Why input validation matters before constructing commands
+- Why clean error handling improves tool reliability
 
+#### 7. Project-Oriented Learning
 
-**🔹 Projects Included 🚀**
+The notebook includes several applied examples, including:
 
-**Project 1: MAC Address Changer** A Python script that automates changing your network interface's MAC address using macchanger. Includes root permission checking, interface bring-down/bring-up, error handling, and two versions (basic v1.0 and clean v1.1 with proper functions).
+- MAC address changer automation
+- Netcat-based network communication scripts
+- An Nmap-powered IP scanner with multiple scan modes
+- A folder creation demonstration used to explain malicious automation patterns
+- A keylogger example framed as educational material and marked with an explicit warning
 
-**Project 2: Network Communication Scripts (Netcat Automation)** Automates nc (Netcat) for creating server-client connections over TCP. Includes port validation, error handling, and even a tip on using ngrok to expose your local server to the internet! Two versions (v1.0 basic, v1.1 with full validation).
+### Important interpretation note
 
-**Project 3: IP Scanner Using Nmap** A Python-powered Nmap scanner with 12 different scan types — SYN Scan, Aggressive Scan, Service Version Detection, Vulnerability Scan, Heartbleed Test, HTTP Security Headers, SQL Injection Test, SMB Vulnerability Scan, SSL/TLS Cipher Scan, NSE Script Discovery, OS Detection, and Custom Scan. Features a colored terminal banner using pyfiglet and termcolor, open port filtering, and input validation. Two versions (v1.0 simple, v1.6 full-featured).
+Some project topics are security-sensitive. They should be read as educational material for understanding scripting, automation, and risk, not as instructions for unauthorized use. That distinction matters, and this repository now makes that boundary explicit in both the README and the security policy.
 
-**Project 4: Malicious Folder Creator** A script that creates folders in a loop (Malicious1, Malicious2...) to demonstrate how malicious automation works and why it is dangerous. Also includes terminal cleanup commands to remove all created folders safely.
+## How the Two Notebooks Complement Each Other
 
-**Project 5: Python Keylogger** Records every keystroke and emails the logs using Gmail's SMTP server when Esc is pressed. Features retry logic (3 attempts with 10-second delays), log file management (saves to keylog.txt and clears after sending), captures special keys like space, backspace, enter, and esc. Also includes auto-start setup for **both Linux (systemd service) and Windows (Startup Folder shortcut)**.
+The easiest way to understand this repository is to view the notebooks as two halves of one learning path.
 
-⚠️ For educational purposes only. Always get permission before using on any device.
+- **Notebook one** gives you the language.
+- **Notebook two** gives you a practical application area.
 
-Drop a issue if anything is confusing or if you want me to explain any part in more detail. Lets learn together! 💪
+The combination is useful because many security learners do not actually need abstract Python knowledge alone. They need to know which Python concepts become important once scripts start touching files, processes, libraries, networks, and command execution.
 
----
+## GitHub Pages
 
-<details><summary><h2>📂 Projects</h2></summary>
+This repository now includes a static website for GitHub Pages.
 
-<div align="center"><h2>🤖AI Based Projects</h2></div>
-<p align="center">
+### What the website does
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/Web_Vulnerability_Scanner-AI">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Web_Vulnerability_Scanner-AI&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Web_Vulnerability_Scanner-AI"></a>
+- Presents both notebooks clearly on a clean landing page.
+- Explains the purpose of each notebook before a visitor opens the PDFs.
+- Gives a recommended learning order.
+- Highlights the major topics and subtopics in each notebook.
+- Provides direct PDF access from a more polished public page.
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/Speech2Speech-AIAssistant">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Speech2Speech-AIAssistant&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Speech2Speech-AIAssistant"></a>
+### Expected site URL
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/PythonicHackathon-CLI">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=PythonicHackathon-CLI&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="PythonicHackathon-CLI"></a>
+If GitHub Pages is enabled for the repository, the site URL is:
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/Ai-Resume-Analyzer">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Ai-Resume-Analyzer&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Ai-Resume-Analyzer"></a>
+**https://sagarbiswas-multihat.github.io/Python-Notebooks/**
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/Ai-Phishy-Playground">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Ai-Phishy-Playground&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Ai-Phishy-Playground"></a>
+## Automation and Quality Checks
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/Chat-Automation-Bot_Ai-Assistant">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Chat-Automation-Bot_Ai-Assistant&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Chat-Automation-Bot_Ai-Assistant"></a>
+This project now includes GitHub Actions workflows that do more than print a placeholder message.
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/Cyber-Command_AI-Assistant.exe">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Cyber-Command_AI-Assistant.exe&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Cyber-Command_AI-Assistant.exe"></a>
-</p>
+### Python CI
 
-<div align="center"><h2>🤖 Tools/Automation</h2></div>
+The validation workflow checks the repository structure by running automated tests that confirm:
 
-<p align="center">
-  <a href="https://github.com/SagarBiswas-MultiHAT/MacChanger-V1-MAX">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=MacChanger-V1-MAX&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="MacChanger-V1-MAX"></a>
+- required files are present
+- the README still covers both notebooks and key onboarding sections
+- the website does not contain broken local links to assets or PDFs
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/Phoneint-OSINT-Toolkit">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Phoneint-OSINT-Toolkit&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Phoneint-OSINT-Toolkit"></a>
+### GitHub Pages Deployment
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/WebSource-Harvester">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=WebSource-Harvester&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="WebSource-Harvester"></a>
+The Pages workflow publishes the repository as a static website from the main branch.
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/HashAttackDemos">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=HashAttackDemos&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="HashAttackDemos"></a>
+## Repository Structure
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/A_Pythonic-Keylogger">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=A_Pythonic-Keylogger&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="A_Pythonic-Keylogger"></a>
+```text
+.
+├── .github/
+│   └── workflows/
+│       ├── pages.yml
+│       └── python-ci.yml
+├── assets/
+│   ├── app.js
+│   └── styles.css
+├── tests/
+│   └── test_repository.py
+├── CONTRIBUTING.md
+├── index.html
+├── LICENSE
+├── Python for CyberSecurity.pdf
+├── README.md
+├── SECURITY.md
+└── The Pythonic Odyssey.pdf
+```
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/BruteforceLab2">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=BruteforceLab2&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="BruteforceLab2"></a>
+## How to Use This Repository
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/EmailBomber">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=EmailBomber&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="EmailBomber"></a>
+1. Read this README to understand the full scope of both notebooks.
+2. Open the GitHub Pages site if you want a cleaner public overview.
+3. Open the PDF that matches your current learning stage.
+4. Use the first notebook for Python foundations.
+5. Use the second notebook for security-oriented applications once your basics are strong.
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/NmapScanningTool-V1-MAX">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=NmapScanningTool-V1-MAX&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="NmapScanningTool-V1-MAX"></a>
+## Top Reasons This Repository Is Useful
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/WiFi-Dictionary-Attack">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=WiFi-Dictionary-Attack&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="WiFi-Dictionary-Attack"></a>
+- It is easy to understand what the project is about.
+- It keeps the learning path focused instead of mixing in unrelated content.
+- It helps a newcomer decide where to start.
+- It combines theory, examples, and project-oriented learning.
+- It now has public presentation, CI validation, and safer repository documentation.
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/SeleniumFirefoxGoogleSearchAutomation">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=SeleniumFirefoxGoogleSearchAutomation&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="SeleniumFirefoxGoogleSearchAutomation"></a>
+## Projects
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/TextBombing-Toolkit">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=TextBombing-Toolkit&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="TextBombing-Toolkit"></a>
+Beyond these two notebooks, the same author keeps a catalog of related AI and automation experiments. These are not bundled into this repository, but they illustrate the learning spirit behind the notes.
 
-</p>
+- **AI & Automation**: [Web_Vulnerability_Scanner-AI](https://github.com/SagarBiswas-MultiHAT/Web_Vulnerability_Scanner-AI), [Speech2Speech-AIAssistant](https://github.com/SagarBiswas-MultiHAT/Speech2Speech-AIAssistant), [PythonicHackathon-CLI](https://github.com/SagarBiswas-MultiHAT/PythonicHackathon-CLI), [Ai-Resume-Analyzer](https://github.com/SagarBiswas-MultiHAT/Ai-Resume-Analyzer), [Ai-Phishy-Playground](https://github.com/SagarBiswas-MultiHAT/Ai-Phishy-Playground), [Chat-Automation-Bot_Ai-Assistant](https://github.com/SagarBiswas-MultiHAT/Chat-Automation-Bot_Ai-Assistant), [Cyber-Command_AI-Assistant.exe](https://github.com/SagarBiswas-MultiHAT/Cyber-Command_AI-Assistant.exe).
+- **Tools & Automation**: [MacChanger-V1-MAX](https://github.com/SagarBiswas-MultiHAT/MacChanger-V1-MAX), [Phoneint-OSINT-Toolkit](https://github.com/SagarBiswas-MultiHAT/Phoneint-OSINT-Toolkit), [WebSource-Harvester](https://github.com/SagarBiswas-MultiHAT/WebSource-Harvester), [HashAttackDemos](https://github.com/SagarBiswas-MultiHAT/HashAttackDemos), [A_Pythonic-Keylogger](https://github.com/SagarBiswas-MultiHAT/A_Pythonic-Keylogger), [BruteforceLab2](https://github.com/SagarBiswas-MultiHAT/BruteforceLab2), [EmailBomber](https://github.com/SagarBiswas-MultiHAT/EmailBomber), [NmapScanningTool-V1-MAX](https://github.com/SagarBiswas-MultiHAT/NmapScanningTool-V1-MAX), [WiFi-Dictionary-Attack](https://github.com/SagarBiswas-MultiHAT/WiFi-Dictionary-Attack), [SeleniumFirefoxGoogleSearchAutomation](https://github.com/SagarBiswas-MultiHAT/SeleniumFirefoxGoogleSearchAutomation), [TextBombing-Toolkit](https://github.com/SagarBiswas-MultiHAT/TextBombing-Toolkit).
+- **Infrastructure & Development**: [TCP-Playground](https://github.com/SagarBiswas-MultiHAT/TCP-Playground), [Saved-WiFi-Restore](https://github.com/SagarBiswas-MultiHAT/Saved-WiFi-Restore), [domain2ip](https://github.com/SagarBiswas-MultiHAT/domain2ip), [SharpLink-URL-Allies](https://github.com/SagarBiswas-MultiHAT/SharpLink-URL-Allies), [Photo-PDF-Bidirectional-Converter](https://github.com/SagarBiswas-MultiHAT/Photo-PDF-Bidirectional-Converter), [Library-Management-System](https://github.com/SagarBiswas-MultiHAT/Library-Management-System), [PyTextEditor](https://github.com/SagarBiswas-MultiHAT/PyTextEditor), [SafeTodoManager](https://github.com/SagarBiswas-MultiHAT/SafeTodoManager), [Student-Management-MVC-Learning-Project](https://github.com/SagarBiswas-MultiHAT/Student-Management-MVC-Learning-Project), [TicTacToe-Game](https://github.com/SagarBiswas-MultiHAT/TicTacToe-Game), [SecureBankingSystem](https://github.com/SagarBiswas-MultiHAT/SecureBankingSystem), [PyCalculator](https://github.com/SagarBiswas-MultiHAT/PyCalculator), [Contact-Management-System](https://github.com/SagarBiswas-MultiHAT/Contact-Management-System), [SnakeWaterGun-Game](https://github.com/SagarBiswas-MultiHAT/SnakeWaterGun-Game), [PyAlarmClock](https://github.com/SagarBiswas-MultiHAT/PyAlarmClock), [Port_Scanner-Python](https://github.com/SagarBiswas-MultiHAT/Port_Scanner-Python), [virusNewFolder](https://github.com/SagarBiswas-MultiHAT/virusNewFolder).
 
-<div align="center"><h2>🛜 Networking</h2></div>
+Each link lives on GitHub under the same username and shows how Python concepts scale into automation, security tooling, networking scripts, and small product ideas.
 
-<p align="center">
+## Responsible Use
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/TCP-Playground">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=TCP-Playground&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="TCP-Playground"></a>
+The cybersecurity notebook includes topics that can become harmful if misused. Use the material only in authorized labs, personal practice environments, classrooms, or systems where you have explicit permission.
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/Saved-WiFi-Restore">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Saved-WiFi-Restore&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Saved-WiFi-Restore"></a>
+## License
 
-  <a href="https://github.com/SagarBiswas-MultiHAT/WiFi-Dictionary-Attack">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=WiFi-Dictionary-Attack&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="WiFi-Dictionary-Attack"></a>
-    
-  <a href="https://github.com/SagarBiswas-MultiHAT/domain2ip">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=domain2ip&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="domain2ip"></a>
-</p>
-
-
-<div align="center"><h2>🧑‍💻 Development</h2></div>
-
-<p align="center">
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/SharpLink-URL-Allies/">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=SharpLink-URL-Allies&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="SharpLink-URL-Allies"></a>
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/Photo-PDF-Bidirectional-Converter/">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Photo-PDF-Bidirectional-Converter&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Photo-PDF-Bidirectional-Converter"></a>
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/Library-Management-System">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Library-Management-System&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Library-Management-System"></a>
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/PyTextEditor/">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=PyTextEditor&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="PyTextEditor"></a>
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/SafeTodoManager">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=SafeTodoManager&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="SafeTodoManager"></a>
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/Student-Management-MVC-Learning-Project">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Student-Management-MVC-Learning-Project&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Student-Management-MVC-Learning-Project"></a>
-  
-  <a href="https://github.com/SagarBiswas-MultiHAT/TicTacToe-Game">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=TicTacToe-Game&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="TicTacToe-Game"></a>
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/SecureBankingSystem">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=SecureBankingSystem&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="SecureBankingSystem"></a>
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/PyCalculator">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=PyCalculator&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="PyCalculator"></a>
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/Contact-Management-System">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Contact-Management-System&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Contact-Management-System"></a>
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/SnakeWaterGun-Game">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=SnakeWaterGun-Game&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="SnakeWaterGun-Game"></a>
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/SnakeWaterGun-Game">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=PyAlarmClock&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="PyAlarmClock"></a>
-
-</p>
-
-<div align="center"><h2>🤖 Small Projects</h2></div>
-
-<p align="center">
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/Port_Scanner-Python">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Port_Scanner-Python&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Port_Scanner-Python"></a>
-
-  <a href="https://github.com/SagarBiswas-MultiHAT/virusNewFolder">
-    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=virusNewFolder&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="virusNewFolder"></a>
-
-</p>
-
-</details>
-
-
+This repository is licensed under the [MIT License](LICENSE).
