@@ -1,5 +1,14 @@
 # Python Notebooks
 
+![Build](https://img.shields.io/github/actions/workflow/status/SagarBiswas-MultiHAT/Python-Notebooks/ci.yml?branch=main)
+![Release](https://img.shields.io/github/v/release/SagarBiswas-MultiHAT/Python-Notebooks)
+![Last Commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/Python-Notebooks)
+![Issues](https://img.shields.io/github/issues/SagarBiswas-MultiHAT/Python-Notebooks)
+![License](https://img.shields.io/github/license/SagarBiswas-MultiHAT/Python-Notebooks)
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
+
+Two published notebooks: 'The Pythonic Odyssey' (core Python, basics→OOP) and 'Python for CyberSecurity' (security tooling & hands-on projects). Example-driven notes, practical projects, and interview prep for beginner-to-intermediate learners.
+
 ## The Pythonic Odyssey
 
 **PDF:** [click here](<The Pythonic Odyssey.pdf>)
