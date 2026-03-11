@@ -44,6 +44,7 @@ body::before {
 .page-shell {
     width: min(1160px, calc(100% - 32px));
     margin: 0 auto;
+    width: 90%;
 }
 
 .hero {
@@ -106,7 +107,7 @@ h3 {
 }
 
 h1 {
-    max-width: 12ch;
+    max-width: 24ch;
     margin-top: 16px;
     font-size: clamp(3rem, 8vw, 6rem);
 }
@@ -259,7 +260,7 @@ h3 {
 
 .roadmap {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 18px;
     margin-top: 24px;
 }
