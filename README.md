@@ -1,11 +1,20 @@
 # Python Notebooks
 
+<div align="right">
+
 ![Build](https://img.shields.io/github/actions/workflow/status/SagarBiswas-MultiHAT/Python-Notebooks/ci.yml?branch=main)
+&nbsp;
 ![Release](https://img.shields.io/github/v/release/SagarBiswas-MultiHAT/Python-Notebooks)
+&nbsp;
 ![Last Commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/Python-Notebooks)
+&nbsp;
 ![Issues](https://img.shields.io/github/issues/SagarBiswas-MultiHAT/Python-Notebooks)
+&nbsp;
 ![License](https://img.shields.io/github/license/SagarBiswas-MultiHAT/Python-Notebooks)
+&nbsp;
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
+
+</div>
 
 Two published notebooks: 'The Pythonic Odyssey' (core Python, basics→OOP) and 'Python for CyberSecurity' (security tooling & hands-on projects). Example-driven notes, practical projects, and interview prep for beginner-to-intermediate learners.
 
@@ -157,5 +166,143 @@ Drop a issue if anything is confusing or if you want me to explain any part in m
 
 ---
 
+<details><summary><h2>📂 Projects</h2></summary>
+
+<div align="center"><h2>🤖AI Based Projects</h2></div>
+<p align="center">
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Web_Vulnerability_Scanner-AI">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Web_Vulnerability_Scanner-AI&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Web_Vulnerability_Scanner-AI"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Speech2Speech-AIAssistant">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Speech2Speech-AIAssistant&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Speech2Speech-AIAssistant"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/PythonicHackathon-CLI">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=PythonicHackathon-CLI&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="PythonicHackathon-CLI"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Ai-Resume-Analyzer">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Ai-Resume-Analyzer&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Ai-Resume-Analyzer"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Ai-Phishy-Playground">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Ai-Phishy-Playground&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Ai-Phishy-Playground"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Chat-Automation-Bot_Ai-Assistant">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Chat-Automation-Bot_Ai-Assistant&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Chat-Automation-Bot_Ai-Assistant"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Cyber-Command_AI-Assistant.exe">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Cyber-Command_AI-Assistant.exe&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Cyber-Command_AI-Assistant.exe"></a>
+</p>
+
+<div align="center"><h2>🤖 Tools/Automation</h2></div>
+
+<p align="center">
+  <a href="https://github.com/SagarBiswas-MultiHAT/MacChanger-V1-MAX">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=MacChanger-V1-MAX&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="MacChanger-V1-MAX"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Phoneint-OSINT-Toolkit">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Phoneint-OSINT-Toolkit&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Phoneint-OSINT-Toolkit"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/WebSource-Harvester">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=WebSource-Harvester&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="WebSource-Harvester"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/HashAttackDemos">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=HashAttackDemos&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="HashAttackDemos"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/A_Pythonic-Keylogger">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=A_Pythonic-Keylogger&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="A_Pythonic-Keylogger"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/BruteforceLab2">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=BruteforceLab2&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="BruteforceLab2"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/EmailBomber">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=EmailBomber&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="EmailBomber"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/NmapScanningTool-V1-MAX">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=NmapScanningTool-V1-MAX&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="NmapScanningTool-V1-MAX"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/WiFi-Dictionary-Attack">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=WiFi-Dictionary-Attack&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="WiFi-Dictionary-Attack"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/SeleniumFirefoxGoogleSearchAutomation">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=SeleniumFirefoxGoogleSearchAutomation&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="SeleniumFirefoxGoogleSearchAutomation"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/TextBombing-Toolkit">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=TextBombing-Toolkit&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="TextBombing-Toolkit"></a>
+
+</p>
+
+<div align="center"><h2>🛜 Networking</h2></div>
+
+<p align="center">
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/TCP-Playground">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=TCP-Playground&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="TCP-Playground"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Saved-WiFi-Restore">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Saved-WiFi-Restore&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Saved-WiFi-Restore"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/WiFi-Dictionary-Attack">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=WiFi-Dictionary-Attack&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="WiFi-Dictionary-Attack"></a>
+    
+  <a href="https://github.com/SagarBiswas-MultiHAT/domain2ip">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=domain2ip&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="domain2ip"></a>
+</p>
+
+
+<div align="center"><h2>🧑‍💻 Development</h2></div>
+
+<p align="center">
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/SharpLink-URL-Allies/">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=SharpLink-URL-Allies&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="SharpLink-URL-Allies"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Photo-PDF-Bidirectional-Converter/">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Photo-PDF-Bidirectional-Converter&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Photo-PDF-Bidirectional-Converter"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Library-Management-System">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Library-Management-System&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Library-Management-System"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/PyTextEditor/">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=PyTextEditor&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="PyTextEditor"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/SafeTodoManager">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=SafeTodoManager&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="SafeTodoManager"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Student-Management-MVC-Learning-Project">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Student-Management-MVC-Learning-Project&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Student-Management-MVC-Learning-Project"></a>
+  
+  <a href="https://github.com/SagarBiswas-MultiHAT/TicTacToe-Game">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=TicTacToe-Game&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="TicTacToe-Game"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/SecureBankingSystem">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=SecureBankingSystem&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="SecureBankingSystem"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/PyCalculator">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=PyCalculator&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="PyCalculator"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Contact-Management-System">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Contact-Management-System&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Contact-Management-System"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/SnakeWaterGun-Game">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=SnakeWaterGun-Game&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="SnakeWaterGun-Game"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/SnakeWaterGun-Game">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=PyAlarmClock&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="PyAlarmClock"></a>
+
+</p>
+
+<div align="center"><h2>🤖 Small Projects</h2></div>
+
+<p align="center">
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/Port_Scanner-Python">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=Port_Scanner-Python&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="Port_Scanner-Python"></a>
+
+  <a href="https://github.com/SagarBiswas-MultiHAT/virusNewFolder">
+    <img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=SagarBiswas-MultiHAT&repo=virusNewFolder&theme=github_dark&border_color=02D892&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&show_icons=false" alt="virusNewFolder"></a>
+
+</p>
+
+</details>
 
 
