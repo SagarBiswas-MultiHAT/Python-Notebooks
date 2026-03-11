@@ -40,7 +40,7 @@ Then we get into the big stuff 👇
 
 This covers like everything from beginner to intermediate Python. Whether you are just starting out or want to revise before an interview or exam; I think this will help. Drop a comment if you have any questions, I'll try my best to answer! 🙌
 
-**PDF:** [click here](<The Pythonic Odyssey.pdf>)
+---
 
 ## Python for CyberSecurity
 
@@ -146,7 +146,7 @@ subprocess.Popen() → for real-time/continuous output (like a live ping)
 
 Drop a issue if anything is confusing or if you want me to explain any part in more detail. Lets learn together! 💪
 
-**PDF:** [click here](<Python for CyberSecurity.pdf>)
+---
 
 
 
