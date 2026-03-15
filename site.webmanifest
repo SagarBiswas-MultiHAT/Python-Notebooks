@@ -1,0 +1,17 @@
+{
+    "name": "Python Notebooks",
+    "short_name": "PyNotebooks",
+    "description": "Dual notebook collection covering Python fundamentals and cybersecurity scripting.",
+    "start_url": "/Python-Notebooks/",
+    "display": "standalone",
+    "background_color": "#020403",
+    "theme_color": "#040a08",
+    "icons": [
+        {
+            "src": "assets/favicon.svg",
+            "sizes": "64x64",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ]
+}

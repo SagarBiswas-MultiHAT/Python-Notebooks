@@ -2,24 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Python Notebooks | Learn Python and Python for Cybersecurity</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Notebooks | Learn Python Basics and Python for Cybersecurity | Sagar Biswas</title>
     <meta name="description"
         content="A polished GitHub Pages showcase for two PDF notebooks: The Pythonic Odyssey and Python for CyberSecurity. Explore topics, projects, learning paths, and direct downloads.">
+    <meta name="keywords"
+        content="Python notebooks, Python PDF notes, Python fundamentals, Python cybersecurity, GitHub Pages" />
+    <meta name="author" content="Sagar Biswas" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Python Notebooks | Sagar Biswas" />
+    <meta property="og:description"
+        content="Explore a structured Python learning collection with curriculum overviews, searchable notebook cards, and direct access to every PDF." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sagarbiswas-multihat.github.io/Python-Notebooks/" />
+    <meta property="og:image" content="https://sagarbiswas-multihat.github.io/assets/og-preview.svg" />
+    <meta property="og:image:alt" content="Python Notebooks by Sagar Biswas" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Python Notebooks | Sagar Biswas" />
+    <meta name="twitter:description"
+        content="Explore six Python notebooks covering fundamentals, data structures, cybersecurity, and practical examples." />
+    <meta name="twitter:image" content="https://sagarbiswas-multihat.github.io/assets/og-preview.svg" />
+    <meta name="theme-color" content="#040a08" />
+    <link rel="canonical" href="https://sagarbiswas-multihat.github.io/Python-Notebooks/" />
+    <link rel="alternate" type="application/atom+xml" title="Python Notebooks — Sagar Biswas"
+        href="https://sagarbiswas-multihat.github.io/Python-Notebooks/feed.xml" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:wght@400;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Share+Tech+Mono&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preload" href="data/notebooks.json" as="fetch" />
+    <link rel="preload" href="assets/styles.css" as="style" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script type="application/ld+json" id="catalog-ld-json">
+            {
+                "@context": "https://schema.org",
+                "@type": "CollectionPage",
+                "name": "Python Notebooks",
+                "author": {
+                    "@type": "Person",
+                    "name": "Sagar Biswas"
+                },
+                "description": "A curated Python learning collection published as PDF notebooks and presented through a GitHub Pages portfolio site.",
+                "about": ["Python", "Data Structures", "Cybersecurity", "Automation", "Projects"],
+                "hasPart": []
+            }
+        </script>
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="page-shell">
         <header class="hero">
             <nav class="topbar">
-                <a class="brand" href="#top">Python Notebooks</a>
+                <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">$</span> Python Notebooks</a>
                 <div class="topbar-links">
                     <a href="#notebooks">Notebooks</a>
                     <a href="#roadmap">Roadmap</a>
@@ -30,8 +69,14 @@
             </nav>
 
             <section class="hero-copy" id="top">
+                <p class="terminal-line" aria-live="polite">
+                    <span class="prompt">root@python-notebooks:~$</span>
+                    <span id="status-message">loading learning matrix</span>
+                    <span class="status-time" id="status-time"></span>
+                </p>
                 <p class="eyebrow">Two focused PDF study guides. One clean learning hub.</p>
-                <h1>Learn core Python first, then apply it to security-focused automation.</h1>
+                <h1 class="glitch" data-text="Learn core Python first, then apply it to security-focused automation.">
+                    Learn core Python first, then apply it to security-focused automation.</h1>
                 <p class="lead">
                     This repository packages two substantial notebooks as downloadable PDFs. One builds strong Python
                     fundamentals from the ground up.
@@ -52,7 +97,7 @@
             </section>
         </header>
 
-        <main>
+        <main id="main-content">
             <section class="section section-grid" id="notebooks">
                 <div class="section-heading">
                     <p class="eyebrow">Notebook Guide</p>
@@ -246,6 +291,16 @@
                 </div>
             </section>
 
+            <section class="section catalog-section" aria-label="Notebook catalog" id="catalog">
+                <div class="section-heading">
+                    <p class="eyebrow">Live Catalog</p>
+                    <h2>Structured metadata for both notebooks</h2>
+                </div>
+                <div class="catalog-grid" id="catalog-grid">
+                    <p>Loading catalog…</p>
+                </div>
+            </section>
+
             <section class="section split-section">
                 <article class="glass-panel">
                     <p class="eyebrow">Who This Helps</p>
@@ -290,6 +345,37 @@
                     <p>No. Use the material only in environments where you have explicit authorization. The repository
                         is for learning and responsible practice.</p>
                 </details>
+            </section>
+            <section class="section" id="related-notebooks">
+                <div class="container">
+                    <div class="section-heading">
+                        <p class="eyebrow">Cross-repo discovery</p>
+                        <h2>Related Notebooks</h2>
+                    </div>
+                    <nav aria-label="Related Notebooks">
+                        <ul class="related-list">
+                            <li><a style="text-decoration: none;"
+                                    href="https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/">Cybersecurity
+                                    Notes and Ethical Hacking Guide</a></li>
+                            <li><a style="text-decoration: none;"
+                                    href="https://sagarbiswas-multihat.github.io/JavaScript-Notebooks/">JavaScript
+                                    Programming Notebook</a></li>
+                            <li><a style="text-decoration: none;"
+                                    href="https://sagarbiswas-multihat.github.io/PHP-Notebooks/">PHP Programming
+                                    Notebook</a></li>
+                            <li><a style="text-decoration: none;"
+                                    href="https://sagarbiswas-multihat.github.io/React-Notebooks/">React Hooks Guide and
+                                    React Project Examples</a></li>
+                            <li><a style="text-decoration: none;"
+                                    href="https://sagarbiswas-multihat.github.io/notebooks/">Software Developer
+                                    Portfolio
+                                    Notebook Hub</a></li>
+                            <li><a style="text-decoration: none;"
+                                    href="https://sagarbiswas-multihat.github.io/BashScript-Notebooks/">Bash Scripting
+                                    Tutorial and Shell Script Examples</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </section>
         </main>
 

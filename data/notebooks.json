@@ -1,0 +1,38 @@
+{
+    "lastUpdated": "2026-03-16",
+    "primaryUrl": "https://sagarbiswas-multihat.github.io/Python-Notebooks/",
+    "description": "A dual-notebook curriculum that bridges Python fundamentals with cybersecurity scripting and automation labs.",
+    "keywords": [
+        "Python fundamentals",
+        "Security notebooks",
+        "Automation education",
+        "CLI learning",
+        "Cybersecurity PDFs"
+    ],
+    "notebooks": [
+        {
+            "title": "The Pythonic Odyssey",
+            "file": "The Pythonic Odyssey.pdf",
+            "focus": "Core Python syntax, structures, functions, and object-oriented patterns for absolute beginners and interview prep.",
+            "tags": [
+                "beginners",
+                "core syntax",
+                "projects"
+            ],
+            "cta": "Download the PDF",
+            "url": "The%20Pythonic%20Odyssey.pdf"
+        },
+        {
+            "title": "Python for CyberSecurity",
+            "file": "Python for CyberSecurity.pdf",
+            "focus": "Security-aware automation, safer subprocess usage, networking helpers, and guided labs that apply Python to offensive-defensive tooling.",
+            "tags": [
+                "security",
+                "automation",
+                "lab"
+            ],
+            "cta": "Download the PDF",
+            "url": "Python%20for%20CyberSecurity.pdf"
+        }
+    ]
+}
