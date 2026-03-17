@@ -47,10 +47,11 @@ if (!reducedMotion) {
         document.body.classList.add("crt-pulse");
         window.setTimeout(() => {
             document.body.classList.remove("crt-pulse");
-        }, 120);
+        }, 420);
     };
 
-    setInterval(triggerPulse, 6500);
+    window.setTimeout(triggerPulse, 1800);
+    setInterval(triggerPulse, 5200);
 }
 
 const catalogGrid = document.getElementById("catalog-grid");
